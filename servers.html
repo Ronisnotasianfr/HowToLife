@@ -131,7 +131,8 @@
         { ip: "wss://mc.zyth.me", status: ".status21" },
         { ip: "wss://proxy.theludos.com/", status: ".status22" },
         { ip: "wss://intelle.cloud/incog", status: ".status23" },
-        { ip: "wss://play.ragexwaternet.online", status: ".status24" }
+        { ip: "wss://play.ragexwaternet.online", status: ".status24" },
+        { ip: "wss://cbnet.lol", status: ".status25"}
       ];
 
       servers.forEach(server => {
@@ -210,6 +211,9 @@
       });
       document.querySelector(".ip24").addEventListener("click", function () {
         copyIP("wss://play.ragexwaternet.online");
+      });
+      document.querySelector(".ip25").addEventListener("click", function () {
+        copyIP("wss://cbnet.lol");
       });
     };
   </script>
@@ -367,6 +371,12 @@
       <div class="status status24"></div>
       <div class="description description24">SMP, Crystalpvp Duels, and more...</div>
       <div class="ip ip24" onclick="copyIP()">Copy IP</div>
+    </div>
+    <div class="box box25">
+      <div class="title title7">Cheeseburger Network</div>
+      <div class="status status25"></div>
+      <div class="description description25">PvP, Survival, Factions and more...</div>
+      <div class="ip ip25" onclick="copyIP()">Copy IP</div>
     </div>
 
   </div>
